@@ -1,0 +1,77 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    margin: 0;
+}
+.content {
+    margin-top: 50px;
+    padding: 20px;
+}
+/* أسلوب التمرير لعناصر القائمة */
+.active {
+    border-bottom: 2px solid #009688;
+}
+/* تحسينات عامة على الجسم والخلفية */
+body {
+    font-family: 'Arial', sans-serif; /* استخدام خط قياسي أنيق */
+    line-height: 1.6; /* تحسين تباعد الأسطر */
+    padding: 20px; /* توفير بعض المساحة حول المحتوى */
+    margin: 0;
+    background-image: url("14.jpg"); /* تأكد من توافر الصورة أو استبدلها بصورة صالحة */
+    background-size: cover; /* تغطية الخلفية بالكامل */
+    background-position: center; /* توسيط الصورة في الخلفية */
+}
+
+/* تحسين العناوين */
+h3, h4 {
+    color: #333; /* تغميق لون النص لتحسين القراءة */
+    text-shadow: 1px 1px 0px #fff; /* إضافة ظل خفيف للنص */
+}
+
+/* تحسين نمط الفقرات */
+p {
+    text-align: justify; /* محاذاة النص لجعله أكثر قابلية للقراءة */
+    margin-bottom: 1em; /* تحسين المسافة بين الفقرات */
+}
+
+/* تنسيق القائمة */
+#menu {
+    text-align: center; /* محاذاة القائمة للوسط */
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block; /* عرض العناصر في سطر واحد مع السماح بالتباعد */
+    margin-right: 5px; /* إضافة هامش بين العناصر */
+}
+
+#menu a {
+    display: block; /* تمكين التباعد */
+    text-decoration: none; /* إزالة خط التسطير من الروابط */
+    color: #0056b3; /* تغيير لون النص */
+    padding: 10px 15px; /* إضافة هامش داخلي للروابط */
+    border: 1px solid transparent; /* إعداد لتأثير الحد */
+    border-radius: 5px; /* جعل الزوايا مدورة */
+}
+
+#menu a:hover, #menu a:focus {
+    background-color: #0056b3; /* تغيير الخلفية عند التمرير أو التركيز */
+    color: #fff; /* تغيير لون النص */
+    border-color: #004494; /* تغيير لون الحد */
+}
+
+/* تحسين نمط اللوحة */
+.panel {
+    background-color: rgba(255, 255, 255, 0.8); /* جعل الخلفية شبه شفافة */
+    border-radius: 10px; /* زوايا مدورة للوحة */
+    padding: 20px; /* توفير تباعد داخل اللوحة */
+}
+
+/* تنسيق زر الحقوق */
+.navbar-fixed-bottom {
+    text-align: center; /* محاذاة النص للوسط */
+    background-color: rgba(15, 77, 118, 0.5);}

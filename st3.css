@@ -1,0 +1,188 @@
+/* تنسيقات عامة */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* استخدام خط عصري */
+    background-color: rgb(13, 8, 61);
+    background-size:contain;/* تضبط   الخلفية بحيث يتم تضمين محتواها بالكامل داخل العنصر، مع الحفاظ على نسب أبعاد الصورة. الصورة ستُظهر بالكامل، لكن قد يتبقى فراغ في العنصر إذا كانت نسبة أبعاد العنصر مخ ; /* تغطية الخلفية بالكامل */
+    background-position: center; /* توسيط الصورة في الخلفية */
+    background-image: t;
+    color: #333; /* لون النص */
+    margin: 0; /* إزالة الهامش الافتراضي */
+}
+
+/* تنسيق القائمة مع التثبيت */
+#menu {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    left: 20px;
+    z-index: 999; /* التأكد من ظهور القائمة في الأعلى */
+}
+
+
+/* تنسيق عناصر القائمة */
+#menu li {
+    display: inline; /* عرض العناصر بجانب بعضها */
+    list-style-type: none; /* إزالة نقاط التعداد */
+    
+}
+
+/* تنسيق روابط القائمة */
+#menu a {
+    text-decoration: none; /* إزالة التسطير */
+    color: rgb(12, 100, 96); /* لون النص */
+    background-color: lightgray; /* لون خلفية الروابط */
+    padding: 5px 10px; /* التباعد داخل الروابط */
+    border-radius: 5px; /* زوايا مدورة للروابط */
+    transition: background-color 0.3s ease; /* تأثير انتقالي لتغيير اللون */
+}
+.ti1{
+    padding: 40px 5px;
+
+}
+.ti2{
+    padding: 1px 5px;
+
+}
+.ti3{
+    padding: 1px 435px;
+    color: #425194;
+}
+
+/* تنسيق الحالة النشطة والتمرير على الروابط */
+#menu a:hover, .active {
+    background-color: #425194; /* تغيير لون الخلفية عند التمرير */
+    color: #fff; /* تغيير لون النص */
+    border-bottom: 2px solid #425194; /* إضافة تأثير خط تحت النص */
+}
+
+/* تنسيق المحتوى */
+.content {
+    margin-top: 50px; /* ترك مسافة في الأعلى */
+    padding: 20px; /* التباعد الداخلي */
+}
+.panel-body {
+    width: 100%;
+}
+.panel-body-re{
+    background-image: url(36.gif);
+    background-size: contain;
+    padding-left: 165px;
+
+}
+.container-re{
+
+    padding-right: 5px;
+    padding-left: 5px;
+}
+h3{
+    padding-left: 407px;
+}
+
+
+.panel-body1 {
+    width: 100%;
+    background-color: rgb(158, 225, 219);
+
+}
+.panel-body3 {
+    width: 100%;
+    background-image: url(26.jpg);
+    padding-right: 15px;
+
+}
+.panel-body4 {
+    width: 100%;
+    background-image: url(26.jpg);
+    background-position: center;
+
+}
+
+.panel-default2{
+    width: 100%;
+    background-color: rgb(1, 31, 52);
+
+}
+.panel-default3{
+    width: fit-content;
+    height: 900px;
+    background: center;
+    background-position: center;
+    background-image: url(26.jpg);
+
+}
+.panel-default4{
+    width: 105%;
+    background-color: #425194;
+
+}
+.panel-default9{
+background-color: black;
+}
+.list{
+    background-image: url(28.gif);
+    background-position:100%;
+    box-shadow: #333;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.8); /* جعل الخلفية شبه شفافة */
+    border-radius: 10px; /* زوايا مدورة للوحة */
+    padding: 100px; /* توفير تباعد داخل اللوحة */
+    width: auto;
+}
+.all{
+
+    background-image: url(26.jpg);
+}
+h3{
+    color: rgb(170, 169, 217);
+}
+.enlarged-text{
+    color: rgb(170, 169, 217);
+
+}
+.con{
+    background: padding-box;
+}
+h4:hover{
+    
+        color: #fff; /* تغيير لون النص */
+        
+    }
+    .white-text {
+        color: rgb(170, 169, 217);
+        font-size: large;
+    }
+    .form-group col-md-4{
+        color: #fff;
+        
+    }
+h4{
+    color: rgb(170, 169, 217);
+}
+.star {
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+    animation: twinkle 3s infinite;
+  }
+  
+  @keyframes twinkle {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+
+
+    
+
+
